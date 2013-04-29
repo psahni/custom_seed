@@ -1,5 +1,13 @@
-require "custom_seed/version"
+
+require 'rails'
+
+require 'lib/custom_seed/custom_seed'
+require 'lib/custom_seed/custom_seed_migration'
+require 'custom_seed/version'
 
 module CustomSeed
- 
+
+  require 'lib/custom_seed/railtie' if defined?(Rails)
+
 end
+
