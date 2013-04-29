@@ -7,7 +7,7 @@ require 'custom_seed/version'
 
 module CustomSeed
 
-  require 'lib/custom_seed/railtie' if defined?(Rails)
+  require 'custom_seed/railtie' if defined?(Rails)
 
 end
 
