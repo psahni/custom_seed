@@ -1,7 +1,7 @@
 
 require 'rails'
 
-require 'lib/custom_seed/custom_seed'
+require 'lib/custom_seed/seed'
 require 'lib/custom_seed/custom_seed_migration'
 require 'custom_seed/version'
 
