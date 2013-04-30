@@ -2,7 +2,7 @@
 #end
 
 # rails generate custom_seed:install
-
+require 'custom_seed/seed'
 require 'custom_seed/custom_seed_migration'
 
 module CustomSeed
