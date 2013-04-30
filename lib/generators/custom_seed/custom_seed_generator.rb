@@ -2,7 +2,7 @@
 #  source_root File.expand_path('../templates', __FILE__)
 #end
 
-require 'custom_seed/custom_seed'
+require 'custom_seed/seed'
 require 'custom_seed/custom_seed_migration'
 
 
