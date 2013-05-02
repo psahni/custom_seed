@@ -37,6 +37,7 @@ module CustomSeed
     def connection
       ActiveRecord::Base.connection
     end
+    
   end
 
 

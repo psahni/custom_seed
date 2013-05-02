@@ -16,7 +16,10 @@ module CustomSeed
 
     class << self
 
-      def execute
+      def execute        
+        unless ActiveRecord::Base.connection.table_exists?(CustomSeed::CustomSeedMigration.table_name)
+          puts "====  'custom_seeds' table does not exists. Please run rails generate custom_seed:install"
+        end        
         custom_seed = new
         if pending_seeds?
            pending_seeds.each do |seed|
