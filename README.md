@@ -10,7 +10,7 @@ You insert some seed data into database, later on you wish insert new data with 
 Add it to your Gemfile:
 
 ```ruby
-gem 'simple_form'
+gem 'custom_seed', :git => 'https://github.com/psahni/custom_seed.git'
 ```
 
 Run the following command to install it:
