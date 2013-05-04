@@ -2,8 +2,9 @@
 
 With The help of custom seed, we are able to maintain seeds versions, just like rails migrations.
 
-You insert some seed data into database, later on you wish insert new data with out running old seeds.
+You insert some seed data into database, later on you wish insert new data with out running old seed statements.
 
+In that case this comes out very handy
 
 ## Installation
 
@@ -30,7 +31,20 @@ Create a seed file:
 ```console
  rails generate custom_seed <file_name>.rb
 ```
+
+To execute a seed file
+
+```
+  rake custom_seed:execute
+  
+```
 ## Usage
+
+* rails generate custom_seed:install, will create the table 'custom_seeds' table into database and it will create a directory custom_seeds inside db
+* rails generate custom_seed <file_name>, it will generate a file with timestamp added to the filename.
+  eg: rails generate custom_seed add_users
+  We can write out our seed statements and then run them through a rake task rake custom_seed:execute
+
 
 
 ## Contributing
