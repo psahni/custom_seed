@@ -1,24 +1,37 @@
 # CustomSeed
 
-TODO: Write a gem description
+With The help of custom seed, we are able to maintain seeds versions, just like rails migrations.
+
+You insert some seed data into database, later on you wish insert new data with out running old seeds.
+
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add it to your Gemfile:
 
-    gem 'custom_seed'
+```ruby
+gem 'simple_form'
+```
 
-And then execute:
+Run the following command to install it:
 
-    $ bundle
+```console
+bundle install
+```
 
-Or install it yourself as:
+Run the generator:
 
-    $ gem install custom_seed
+```console
+rails generate custom_seed:install
+```
 
+Create a seed file:
+
+```console
+ rails generate custom_seed <file_name>.rb
+```
 ## Usage
 
-TODO: Write usage instructions here
 
 ## Contributing
 
