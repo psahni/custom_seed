@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7739e576-4281-4bfe-9384-e57a305bb4eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom_seed.sqlite3" afterPath="$PROJECT_DIR$/custom_seed.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/generators/custom_seed_generator_spec.rb" afterPath="$PROJECT_DIR$/spec/generators/custom_seed_generator_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/lib/custom_seed_spec.rb" afterPath="$PROJECT_DIR$/spec/lib/custom_seed_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/debug.log" afterPath="$PROJECT_DIR$/spec/debug.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="custom_seed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,6 +13,7 @@
     <file path="/database.yml" changelist="7739e576-4281-4bfe-9384-e57a305bb4eb" time="1368168862137" ignored="false" />
     <file path="/custom_seed_generator_spec.rb" changelist="7739e576-4281-4bfe-9384-e57a305bb4eb" time="1368187975862" ignored="false" />
     <file path="/custom_seed_spec.rb" changelist="7739e576-4281-4bfe-9384-e57a305bb4eb" time="1368183614094" ignored="false" />
+    <file path="/README.md" changelist="7739e576-4281-4bfe-9384-e57a305bb4eb" time="1368188685247" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,19 +39,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom_seed_generator_spec.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/generators/custom_seed_generator_spec.rb">
+      <file leaf-file-name="custom_seed_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/lib/custom_seed_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="34" selection-start="625" selection-end="625" vertical-scroll-proportion="0.60314685">
+            <state line="26" column="16" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom_seed_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/lib/custom_seed_spec.rb">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="46" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+            <state line="56" column="0" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.81643355">
               <folding />
             </state>
           </provider>
@@ -86,6 +83,7 @@
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/lib/custom_seed_spec.rb" />
         <option value="$PROJECT_DIR$/spec/generators/custom_seed_generator_spec.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -271,7 +269,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15757576" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15757576" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -342,13 +340,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="57" selection-start="150" selection-end="150" vertical-scroll-proportion="0.19195612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="16" selection-start="96" selection-end="96" vertical-scroll-proportion="0.10544816">
@@ -433,6 +424,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/generators/custom_seed_generator_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="18" selection-start="291" selection-end="301" vertical-scroll-proportion="0.26223776">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/custom_seed/custom_seed_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="19" selection-start="101" selection-end="111" vertical-scroll-proportion="0.0">
@@ -442,14 +440,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/lib/custom_seed_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="46" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+        <state line="26" column="16" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/generators/custom_seed_generator_spec.rb">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="625" selection-end="625" vertical-scroll-proportion="0.60314685">
+        <state line="56" column="0" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.81643355">
           <folding />
         </state>
       </provider>
