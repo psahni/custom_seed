@@ -111,3 +111,485 @@
  FROM sqlite_master
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES ('20130510095520')
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES ('20130510100707')
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES ('20130510100723')
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510100900)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510100901)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.3ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510100910)
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510100910)[0m
+SQLite3::ConstraintException: column version is not unique: INSERT INTO "custom_seeds" ("version") VALUES (20130510100910)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510100928)
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510100928)[0m
+SQLite3::ConstraintException: column version is not unique: INSERT INTO "custom_seeds" ("version") VALUES (20130510100928)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510100942)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510100952)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.4ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510100959)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510100969)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.4ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (15.1ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510101617)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510101627)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.3ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.3ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510102139)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510102149)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.5ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.5ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510102335)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510102345)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.5ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.4ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510102356)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510102366)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.5ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.3ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510102411)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510102421)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.6ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.4ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510102436)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510102446)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.6ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.4ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510102455)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510102465)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.3ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.4ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510102541)
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510102551)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.6ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.4ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510102831)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510102841)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.6ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.6ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510102921)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510102931)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.7ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.4ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510102945)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510102955)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.8ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.4ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510102954)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510102964)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.7ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.4ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510103811)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510103821)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.7ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.4ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510103906)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510103916)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.9ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.7ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510103918)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510103928)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.8ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.5ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510103942)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510103952)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.9ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.5ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510104007)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510104017)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.9ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.5ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510104051)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510104061)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.9ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.5ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510104115)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510104125)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.9ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (1.1ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510104129)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510104139)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.9ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.5ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510104135)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510104145)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.9ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.9ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105120)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510105130)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (1.0ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.9ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105442)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510105452)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (1.0ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.9ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105453)
+  [1m[36mCustomSeed::CustomSeedMigration Load (1.0ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105515)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510105525)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (1.0ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (1.1ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105525)
+SQLite3::ConstraintException: column version is not unique: INSERT INTO "custom_seeds" ("version") VALUES (20130510105525)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105557)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510105567)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.5ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.5ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105568)
+  [1m[36mCustomSeed::CustomSeedMigration Load (1.1ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105637)
+  [1m[36mCustomSeed::CustomSeedMigration Load (1.0ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105628)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510105638)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (1.1ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (1.0ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105700)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510105710)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (1.2ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.5ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105710)
+SQLite3::ConstraintException: column version is not unique: INSERT INTO "custom_seeds" ("version") VALUES (20130510105710)
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105709)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510105719)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (1.2ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (1.1ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105719)
+SQLite3::ConstraintException: column version is not unique: INSERT INTO "custom_seeds" ("version") VALUES (20130510105719)
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105720)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510105730)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (1.2ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (1.2ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105731)
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105733)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510105743)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (1.6ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (1.2ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105743)
+SQLite3::ConstraintException: column version is not unique: INSERT INTO "custom_seeds" ("version") VALUES (20130510105743)
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105752)
+  [1m[36mCustomSeed::CustomSeedMigration Load (1.2ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105742)
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510105752)[0m
+SQLite3::ConstraintException: column version is not unique: INSERT INTO "custom_seeds" ("version") VALUES (20130510105752)
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105812)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510105822)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (1.3ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (1.3ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (1.3ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105905)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510105915)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (1.4ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (1.3ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (1.5ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510105915)[0m
+SQLite3::ConstraintException: column version is not unique: INSERT INTO "custom_seeds" ("version") VALUES (20130510105915)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510105927)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510105937)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (1.5ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (1.5ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mAREL (168.8ms)[0m  DELETE FROM "custom_seeds" WHERE 1=1
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510105937)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.2ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mAREL (152.8ms)[0m  [1mDELETE FROM "custom_seeds" WHERE 1=1[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510110046)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.2ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510110036)[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510110046)
+SQLite3::ConstraintException: column version is not unique: INSERT INTO "custom_seeds" ("version") VALUES (20130510110046)
+  [1m[36mAREL (312.3ms)[0m  [1mDELETE FROM "custom_seeds" WHERE 1=1[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510110110)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.3ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510110101)[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510110111)
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.3ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.2ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510110437)
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510110447)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.3ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.3ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mAREL (171.8ms)[0m  DELETE FROM "custom_seeds" WHERE 1=1
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510110447)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.2ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+

@@ -31,3 +31,21 @@ RSpec.configure do |config|
   config.mock_with :rspec
   config.order = 'random'
 end
+
+#############################################################################################
+
+def create_dir
+  require 'fileutils'
+  FileUtils.mkdir_p('db/custom_seeds')
+end
+
+
+def remove_dir
+  require 'fileutils'
+  FileUtils.rm_rf("db")
+end
+
+def create_seed_files
+  File.new("db/custom_seeds/" + @version_1.to_s + '_test1.rb', 'w')
+  File.new("db/custom_seeds/" + @version_2.to_s + '_test2.rb', 'w')
+end
