@@ -29,18 +29,17 @@ rails generate custom_seed:install
 Create a seed file:
 
 ```console
- rails generate custom_seed <file_name>.rb
+ rails generate custom_seed <file_name>
 ```
 
 To execute a seed file
 
-```
+```console
   rake custom_seed:execute
-  
 ```
 ## Usage
 
-* rails generate custom_seed:install, will create the table 'custom_seeds' table into database and it will create a directory custom_seeds inside db
+* rails generate custom_seed:install, will create the table 'custom_seeds' table into database and it will also create a directory custom_seeds inside db
 * rails generate custom_seed <file_name>, it will generate a file with timestamp added to the filename.
   eg: rails generate custom_seed add_users
   We can write out our seed statements and then run them through a rake task rake custom_seed:execute

@@ -6,7 +6,6 @@ require 'custom_seed/seed'
 require 'custom_seed/custom_seed_migration'
 
 module CustomSeed
-
   module Generators
     class InstallGenerator < Rails::Generators::Base
       source_root File.expand_path("../../templates", __FILE__)
