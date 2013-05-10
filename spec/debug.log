@@ -708,3 +708,23 @@ SQLite3::ConstraintException: column version is not unique: INSERT INTO "custom_
  FROM sqlite_master
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
+  [1m[36mAREL (264.6ms)[0m  [1mDELETE FROM "custom_seeds" WHERE 1=1[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510124515)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.2ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mAREL (172.2ms)[0m  [1mDELETE FROM "custom_seeds" WHERE 1=1[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "custom_seeds" ("version") VALUES (20130510124506)
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "custom_seeds" ("version") VALUES (20130510124516)[0m
+  [1m[35mCustomSeed::CustomSeedMigration Load (0.3ms)[0m  SELECT "custom_seeds".* FROM "custom_seeds"
+  [1m[36mCustomSeed::CustomSeedMigration Load (0.2ms)[0m  [1mSELECT "custom_seeds".* FROM "custom_seeds"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
