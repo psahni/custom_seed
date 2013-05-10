@@ -83,10 +83,7 @@ module CustomSeed
         seeds.sort_by(&:version)
       end
 
-
     end
-
-             1
 
   end
 
