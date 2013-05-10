@@ -30,6 +30,8 @@ Run the following command to install it:
 bundle install
 ```
 
+## Getting Started
+
 Run the generator:
 
 ```console
@@ -47,8 +49,8 @@ To execute a seed file
 ```console
   rake custom_seed:execute
 ```
-## Usage
 
+## Usage
 * rails generate custom_seed:install, will create the table 'custom_seeds' table into database and it will also create a directory custom_seeds inside folder 'db'
 * rails generate custom_seed < file_name >, it will generate a file with timestamp prepended to the filename.
   eg: rails generate custom_seed add_users

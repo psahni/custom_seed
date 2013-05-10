@@ -13,7 +13,7 @@
     <file path="/database.yml" changelist="7739e576-4281-4bfe-9384-e57a305bb4eb" time="1368168862137" ignored="false" />
     <file path="/custom_seed_generator_spec.rb" changelist="7739e576-4281-4bfe-9384-e57a305bb4eb" time="1368187975862" ignored="false" />
     <file path="/custom_seed_spec.rb" changelist="7739e576-4281-4bfe-9384-e57a305bb4eb" time="1368183614094" ignored="false" />
-    <file path="/README.md" changelist="7739e576-4281-4bfe-9384-e57a305bb4eb" time="1368188685247" ignored="false" />
+    <file path="/README.md" changelist="7739e576-4281-4bfe-9384-e57a305bb4eb" time="1368188877604" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.81643355">
+            <state line="52" column="8" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.8951049">
               <folding />
             </state>
           </provider>
@@ -447,7 +447,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.81643355">
+        <state line="52" column="8" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.8951049">
           <folding />
         </state>
       </provider>
