@@ -10,7 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["prashant.sahni5@gmail.com"]
   spec.platform    = Gem::Platform::RUBY
   spec.homepage = "http://prashantsahni.in"
-  spec.description   = "A gem for managing and maintaining seed versions"
+  spec.description   = "A gem for managing and maintaining seed versions, just like rails migrations"
+  spec.summary = "Maintain your seed versions easily"
   spec.homepage      = ""
   spec.license       = "MIT"
 
