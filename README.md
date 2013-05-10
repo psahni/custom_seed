@@ -57,3 +57,7 @@ To execute a seed file
   We can write out our seed statements and then run them through a rake task rake custom_seed:execute
 
 
+## Additional Information
+
+If you face any difficulty or confusion regarding using this gem, i request you to put up an issue
+or mail me at prashantsahni5@gmail.com. Thanks
