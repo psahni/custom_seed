@@ -21,6 +21,7 @@ describe CustomSeed::Generators::CustomSeedGenerator  do
         directory "custom_seeds" do
           migration "test"do
             contains "class TestSeed"
+            contains "def self.run"
           end
         end
       end

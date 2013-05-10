@@ -9,6 +9,7 @@ describe "Custom Seed" do
   end
 
   it "should fetch all versions" do
+    CustomSeed::CustomSeedMigration.delete_all
     CustomSeed::CustomSeedMigration.create(:version => @version_1)
     CustomSeed::CustomSeedMigration.create(:version => @version_2)
     CustomSeed::Seed.get_all_versions.should include(@version_1)
